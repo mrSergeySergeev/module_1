@@ -55,7 +55,7 @@ body {
 
 
 .image_h1 {
-    background-image: url('../resources/image_h1.jpg');
+    background-image: url('./resources/image_h1.jpg');
     background-size: contain;
     background-repeat: no-repeat;
 }
