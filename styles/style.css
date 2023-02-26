@@ -1,0 +1,134 @@
+body {
+    font-family: 'Manrope', Courier, sans-serif;
+    margin: 0, auto;
+    /* ширина нашего проекта 1150 пикселей */
+    width: 1150px;
+    /* отступаем от левого края 125 px без изменения ширины проекта */
+    padding-left: 125px;
+}
+
+/* прописываем свойства шапки сайта */
+.header {
+    width: 1150px;
+    margin-top: 33px;
+    margin-bottom: 70px;
+}
+
+/* свойства всей навигации */
+.navi {
+    font-size: 20px;
+    margin-left: 515px;
+    line-height: 25px;
+}
+
+/* это ссылка навигации о нас */
+.nav_link_1 {
+    color: #121212;
+    /* заглавные буквы */
+    text-transform: uppercase;
+    /* расстояние между символами в тексте */
+    letter-spacing: -0.03em;
+    text-decoration: underline;
+}
+
+/* это остальные ссылки навигации */
+.nav_link_2 {
+    color: #121212;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 60px;
+    letter-spacing: -0.03em;
+}
+
+/* прописываем свойства дива h1 */
+.h1 {
+    margin-bottom: 150px;
+}
+/* прописываем свойства для заголовка h1 в диве text_h1 */
+.text_h1 {
+    font-size: 60px;
+    line-height: 60px;
+    font-weight: 400;
+    text-align: left;
+    color: #121212;
+}
+
+
+.image_h1 {
+    background-image: url('/resources/image_h1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* описываем(пытаемся) позицию текста */
+.image_h1_text {
+    color: white;
+    /* ширина этого блока */
+    width: 430px;
+    /* отталкиваемся сверху на 379 px от родительского элемента*/
+    padding-top: 379px; 
+    /* отталкиваемся слева на 40 px от родительского элемента  */
+    padding-left: 40px;          
+    /* отталкиваемся снизу на 40 px от родительского элемента  */
+    padding-bottom: 40px;  
+}
+
+/* описываем свойства текста, находящегося в теге p */
+.image_h1_text p{
+    /* почему при изменении шрифта на 20 px получается не так, как на макете??? */
+    font-size: 20px;
+    /* высота строки */
+    line-height: 27px;
+    letter-spacing: -0.03em;
+
+    /* выравнивание текста в блоке по центру */
+    text-align: center; 
+    /* заполнение текста на всю ширину блока слева направо */
+    text-align: justify;
+    }
+
+/* заголовок h3 второй части сайта */
+.header_h2 {
+    font-size: 18px;
+    line-height: 25px;
+    /* трансформируем текст в большие буквы */
+    text-transform: uppercase;
+}
+
+/* этот див предназначен для описания компании */
+.h2_about_us {
+    /* отступаем от местного заголовка 30 пиксЕлей */
+    padding-top: 30px;
+    font-size: 45px;
+    /* высота строки */
+    line-height: 61px;
+    letter-spacing: -0.03em;
+}
+
+/* описываем позицию и основные свойства кнопки, нахдится в этом разделе */
+.button_h2 {
+    padding-top: 30px;
+}
+
+/* описываем тег 'а' в диве .button_h2 */
+.button_h2 a {
+    font-size: 20px;
+    /* это делаем из ссылки блочный элемент, после задаём размеры */
+    display: block;
+    /* ширина  */
+    width: 255px;
+    /* высота */
+    height: 67px;
+    /* рамка вокруг ссылки */
+    border: 1px solid red;
+    /* выравнивание текста по центру */
+    text-align: center;
+    /* высота строки = высоте блока, текст займёт центр */
+    line-height: 67px;
+    /* убираем полоску под ссылкой */
+    text-decoration: none;
+    /* цвет букаф */
+    color: white;
+    /* цвет фона ссылки */
+    background-color: #ad1818;
+}
